@@ -1,0 +1,86 @@
+body {
+  background-color:lightsalmon;
+}
+
+header {
+  background-color:lightsalmon;
+  background-image:url(images/headerbackground.jpg);
+  color:rgb(74, 10, 10);
+  padding: 2.5rem;
+  font-size: 350%;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+nav {
+  background-color:darksalmon;
+  text-transform: uppercase;
+  border: 2px solid lightcoral;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 1rem;
+}
+
+nav a {
+  color:rgb(74, 10, 10);
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+h2 {
+  font-size: 200%;
+  color: rgb(74, 10, 10);
+  padding: 1rem;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p {
+  padding: 1rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main img {
+  max-width: 100%;
+}
+
+main ul {
+  padding: 1rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+figcaption {
+  padding: 1rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+  padding: 0.5rem;
+  background-color: darksalmon;
+  text-align: center;
+  font-size: 105%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  border: 2px solid lightcoral;
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
